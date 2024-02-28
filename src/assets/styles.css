@@ -1,0 +1,139 @@
+:root {
+    --main-color: #007bff;
+    --dark-color: #333;
+    --medium-color: #555;
+    --light-color: #888;
+    --background-color: #f9f9f9;
+    --button-hover-color: #0056b3;
+    --button-delete-color: #dc3545;
+    --button-delete-hover-color: #c82333;
+  }
+  
+  .register-container,
+  .login-container,
+  .dashboard-container,
+  .income-list-container,
+  .expense-list-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: var(--background-color);
+  }
+  
+  .register-title,
+  .login-title,
+  .dashboard-title,
+  .income-list-title,
+  .expense-list-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: var(--dark-color);
+  }
+  
+  .register-links a,
+  .login-links a,
+  .dashboard-links a,
+  .income-list-links a,
+  .expense-list-links a {
+    color: var(--main-color);
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .register-links a:hover,
+  .login-links a:hover,
+  .dashboard-links a:hover,
+  .income-list-links a:hover,
+  .expense-list-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .register-label,
+  .login-label,
+  .income-list-form label,
+  .expense-list-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: var(--medium-color);
+  }
+  
+  .register-input,
+  .login-input,
+  .income-list-form input,
+  .expense-list-form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .register-button,
+  .login-button,
+  .income-list-form button,
+  .expense-list-form button {
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .register-button:hover,
+  .login-button:hover,
+  .income-list-form button:hover,
+  .expense-list-form button:hover {
+    background-color: var(--button-hover-color);
+  }
+  
+  .income-list-data li,
+  .expense-list-data li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: var(--medium-color);
+  }
+  
+  .income-list-data button,
+  .expense-list-data button {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .delete-button {
+    background-color: var(--button-delete-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: var(--button-delete-hover-color);
+  }
+  
+  .register-login-link,
+  .register-link,
+  .link {
+    font-size: 14px;
+    margin-top: 15px;
+    color: var(--light-color);
+  }
+  
+  .register-link a,
+  .link a {
+    color: var(--main-color);
+    text-decoration: none;
+  }
+  
+  .register-link a:hover,
+  .link a:hover {
+    text-decoration: underline;
+  }
+  
